@@ -14,3 +14,4 @@ $TTL	604800
 @	IN	AAAA	::1
 NS  IN  A   182.22.2.2
 holamundo IN TXT "Hola Mundo"
+www IN CNAME genius
