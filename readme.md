@@ -23,7 +23,8 @@
 - @	IN	A	182.22.2.2
 - @	IN	AAAA	::1
 - NS  IN  A   182.22.2.2
-
+- holamundo IN TXT "Hola Mundo"
+- www IN CNAME genius
 ## Ahora echa la zona para comprobas que funciona utilizaremos el comando dig:
 
 - root@60d7fd7d5b61:/# dig genius.com
